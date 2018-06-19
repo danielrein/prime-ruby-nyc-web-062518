@@ -1,8 +1,8 @@
 def prime?(num)
   case num
-    when == 0
+    when num == 0
       false
-    when >= 1 && <= 3
+    when num >= 1 && num <= 3
       true
     when num > 3
       factor = 4
