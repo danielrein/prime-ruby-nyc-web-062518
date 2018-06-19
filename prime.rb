@@ -11,5 +11,6 @@ def prime?(num)
           false
       end
     end
+  true
   end
 end
