@@ -9,7 +9,8 @@ def prime?(num)
       while factor < num / 2
         if num / factor == 0
           false
-        else factor += 1
+        else
+          factor += 1
       end
     end
   end
