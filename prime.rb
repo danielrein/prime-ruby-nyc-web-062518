@@ -1,7 +1,7 @@
 def prime?(num)
-  if num <=0
+  if num <= 1
     isPrime = false
-  elsif num >= 1 && num <= 3
+  elsif num == 2 || num == 3
     isPrime = true
   else
     factor = 2
