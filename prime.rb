@@ -1,5 +1,5 @@
-def prime?(num)
-  num = num.abs
+def prime?(n)
+  num = n.abs
   isPrime = true
   if num == 0
       isPrime = false
