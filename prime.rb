@@ -15,3 +15,4 @@ def prime?(num)
   end
   isPrime
 end
+end
