@@ -10,6 +10,8 @@ def prime?(num)
       if factor > num / 2
         isPrime = true
       end
+    else
+      isPrime = false
     end
   end
   isPrime
