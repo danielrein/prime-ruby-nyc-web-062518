@@ -7,6 +7,7 @@ def prime?(num)
     while factor <= num / 2
       if num / factor == 0
         isPrime = false
+        break
       else
         factor += 1
     end
