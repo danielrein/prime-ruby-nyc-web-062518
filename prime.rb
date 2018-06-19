@@ -5,8 +5,8 @@ def prime?(num)
     isPrime = true
   else
     isPrime = true
+    factor = 2
     while factor <= num / 2
-      factor = 2
       if num % factor == 0
         isPrime = false
       else
