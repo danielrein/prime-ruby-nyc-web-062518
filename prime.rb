@@ -4,7 +4,7 @@ def prime?(num)
     isPrime
   else
     factor = 2
-    if num / factor != 0
+    if num % factor != 0
       factor += 1
       if factor > num / 2
         isPrime = true
