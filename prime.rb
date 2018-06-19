@@ -6,7 +6,7 @@ def prime?(num)
   else
     isPrime = true
     factor = 2
-    until factor <= num / 2
+    until isPrime == false || factor <= num / 2
       if num % factor == 0
         isPrime = false
       else
