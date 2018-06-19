@@ -1,4 +1,5 @@
 def prime?(num)
+  isPrime = true
   if num <= 0
     isPrime = false
   elsif num >= 1 && num <= 3
