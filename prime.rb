@@ -10,6 +10,7 @@ def prime?(num)
       else
         factor += 1
     end
+    isPrime
   end
   isPrime
 end
