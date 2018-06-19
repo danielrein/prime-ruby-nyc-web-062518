@@ -5,7 +5,7 @@ def prime?(num)
   when num > 3
     factor = 4
     while factor < num / 2
-      if num / factor == 0 return false
+      if num / factor == 0
+        false
     end
-  return true
 end
