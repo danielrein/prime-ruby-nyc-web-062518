@@ -11,6 +11,7 @@ def prime?(num)
         isPrime = false
       else
         factor += 1
+      end
     end
   end
   isPrime
