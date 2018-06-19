@@ -4,15 +4,13 @@ def prime?(num)
   elsif num == 2 || num == 3
     isPrime = true
   else
+    isPrime = true
     while factor <= num / 2
-    factor = 2
-    if num % factor != 0
-      factor += 1
-    else
-        isPrime = true
-    end
-    else
-      isPrime = false
+      factor = 2
+      if num % factor == 0
+        isPrime = false
+      else
+        factor += 1
     end
   end
   isPrime
