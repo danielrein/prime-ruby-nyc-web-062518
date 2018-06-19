@@ -1,6 +1,6 @@
 def prime?(num)
   isPrime = false
-  if num <= 1
+  if num <= 3
     isPrime
   else
     factor = 2
