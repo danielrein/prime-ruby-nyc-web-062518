@@ -3,7 +3,7 @@ def prime?(num)
   if num <= 0
     isPrime = false
   elsif num >= 1 && num <= 3
-    isPrime = true
+    isPrime = false
   else
     factor = 4
     while factor < num / 2
