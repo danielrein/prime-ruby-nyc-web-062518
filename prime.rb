@@ -10,4 +10,5 @@ def prime?(num)
       if num / factor == 0
         false
     end
+  end
 end
