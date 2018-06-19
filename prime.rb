@@ -11,6 +11,7 @@ def prime?(num)
       else
         factor += 1
     end
+  true
   end
 end
 end
